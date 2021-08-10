@@ -17,12 +17,56 @@ body {
   line-height: 1.5;
   color: #4f4f4f;
 }
- 
+
 a {
-    text-decoration: none;
-    color: #4f4f4f
+  text-decoration: none;
+  color: #4f4f4f;
 }
 
 section {
-    padding: 4% 0;
+  padding: 4% 0;
+}
+
+/* Header Section Styles*/
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  /* 
+  FOR MOBLIE
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; */
+}
+
+.titles {
+  width: 40%;
+  text-align: center;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 5rem;
+}
+
+.titles h2 {
+    font-family: fantasy;
+}
+
+.links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.links a {
+  width: 20%;
+  text-align: center;
+}
+
+/* Header Section Styles*/
+.sub_header h3 {
+    font-family: Snell Roundhand, cursive;
 }
