@@ -5,3 +5,24 @@
   max-width: 100%;
   border: 1px solid grey;
 }
+
+/* General Styles*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+}
+ 
+a {
+    text-decoration: none;
+    color: #4f4f4f
+}
+
+section {
+    padding: 4% 0;
+}
