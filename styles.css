@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* General Styles*/
@@ -16,6 +16,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #4f4f4f;
+  background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
 }
 
 a {
@@ -24,7 +25,8 @@ a {
 }
 
 section {
-  padding: 4% 0;
+  /* padding: 2% 0; */
+  margin: 5% 0;
 }
 
 /* Header Section Styles*/
@@ -38,8 +40,14 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999; */
+  z-index: 999; */ 
 }
+
+nav a:hover {
+    background-color: white;
+    color: pink;
+  }
+
 
 .titles {
   width: 40%;
@@ -69,7 +77,8 @@ h1 {
 /* Top Section Styles*/
 
 #top {
-  background-color: turquoise;
+  background-color: pink;
+  width: 100%;
 }
 
 .slideshow-container {
@@ -113,48 +122,57 @@ h1 {
   }
 }
 
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
 .sub_header {
   text-align: center;
 }
 
 .sub_header h3 {
   font-family: Snell Roundhand, cursive;
-  font-size: 3rem;
+  font-size: 5rem;
+  margin: 4% 0;
 }
 
 button {
   background-color: lightblue;
-  padding: 10px 32px;
-  font-size: 16px;
+  padding: 1.5% 1.5%;
+  font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 20px;
   transition-duration: 0.4s;
+  margin-bottom: 5%;
 }
 
 button:hover {
   background-color: white;
-  color: #4f4f4f;
+  color: pink;
 }
 
 /* about section styles */
+#about {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
+  text-align: center;
+}
+#about h2 {
+  font-family: fantasy;
+  font-size: 4.5rem;
+}
 
- /* gallery section styles */
+#about p {
+  font-family: fantasy;
+  width: 70%;
+  font-size: 2rem;
+}
+/* gallery section styles */
+#gallery {
+  background-color: pink;
+}
 
 /* .image {
     width: 20%;
@@ -169,6 +187,27 @@ button:hover {
 } */
 /* footer section styles */
 
-/* #footer{
-   
-} */
+#contact {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+
+#contact h3 {
+  font-size: 3rem;
+}
+
+address {
+  width: 30%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.telNumber {
+  font-size: 2rem;
+}
+
