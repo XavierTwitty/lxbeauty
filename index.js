@@ -14,12 +14,5 @@ function showSlides() {
 }
 
 
-$(window).on('load', function(){
-    $.instagramFeed({
-        'username': 'xaviertwitty_',
-        'container': "#instagram-feed-demo"
-    });
-  });
-
   // components 21:13 
   // react components 46:45 react dev tools chrome web store  
