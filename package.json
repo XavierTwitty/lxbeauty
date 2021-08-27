@@ -1,0 +1,28 @@
+{
+  "name": "lxbeauty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XavierTwitty/lxbeauty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XavierTwitty/lxbeauty/issues"
+  },
+  "homepage": "https://github.com/XavierTwitty/lxbeauty#readme",
+  "keywords": [],
+  "dependencies": {
+    "core-js": "^3.16.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
+  }
+}
