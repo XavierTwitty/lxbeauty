@@ -210,3 +210,9 @@ address {
 .telNumber {
   font-size: 2rem;
 }
+
+
+.menuImage {
+  height: 20%;
+  width: 20%;
+}
