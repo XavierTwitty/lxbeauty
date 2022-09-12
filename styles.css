@@ -228,3 +228,15 @@ address {
 .telNumber {
   font-size: 2rem;
 }
+
+@media (max-width: 800px) {
+  body {
+    border: solid red;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    border: solid blue;
+  }
+}
