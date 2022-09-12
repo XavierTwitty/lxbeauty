@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* General Styles*/
@@ -40,14 +40,13 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999; */ 
+  z-index: 999; */
 }
 
 nav a:hover {
-    background-color: white;
-    color: pink;
-  }
-
+  background-color: white;
+  color: pink;
+}
 
 .titles {
   width: 40%;
@@ -131,7 +130,7 @@ h1 {
   font-size: 5rem;
   margin: 4% 0;
 }
-
+/* not a button class */
 button {
   background-color: lightblue;
   padding: 1.5% 1.5%;
@@ -148,6 +147,20 @@ button:hover {
   color: pink;
 }
 
+/* menu section styles */
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.menu-item {
+  width: 30%;
+  text-align: center;
+  margin: 1.5%;
+}
 /* about section styles */
 #about {
   width: 100%;
@@ -166,7 +179,7 @@ button:hover {
 
 #about p {
   font-family: fantasy;
-  width: 70%;
+  width: 60%;
   font-size: 2rem;
 }
 /* gallery section styles */
@@ -174,17 +187,22 @@ button:hover {
   background-color: pink;
 }
 
-/* .image {
-    width: 20%;
+.gallery-container {
   display: flex;
-  justify-content: center;
-  
+  width: 100%;
+  height: 30rem;
+  align-items: center;
 }
 
-.image img {
-    width: 10rem;
-    height: 10rem;
-} */
+.gallery-img {
+  height: 80%;
+}
+
+.gallery-img img {
+  width: 80%;
+  height: 80%;
+  padding-left: 20%;
+}
 /* footer section styles */
 
 #contact {
@@ -210,4 +228,3 @@ address {
 .telNumber {
   font-size: 2rem;
 }
-
