@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* General Styles*/
@@ -222,7 +222,7 @@ address {
 
 @media (max-width: 800px) {
   body {
-    border: solid red;
+    /* border: solid red; */
   }
 
   header {
@@ -301,7 +301,7 @@ address {
 
 @media (max-width: 600px) {
   body {
-    border: solid blue;
+    /* border: solid blue; */
   }
 
   .sub_header h3 {
