@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  /* border: 1px solid grey; */
+  border: 1px solid grey;
 }
 
 /* General Styles*/
@@ -233,10 +233,86 @@ address {
   body {
     border: solid red;
   }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub_header h3 {
+    font-size: 4rem;
+  }
+
+  .titles {
+    width: 100%;
+  }
+
+  .links {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .menu-item {
+    width: 80%;
+  }
+
+  #about {
+    width: 100%;
+    height: 80vh;
+  }
+
+  #about h2 {
+    font-size: 4rem;
+  }
+
+  #about p {
+    width: 80%;
+    margin: 1%;
+  }
+
+  #gallery {
+    display: none;
+  }
+
+  #contact {
+    width: 100%;
+    height: 62vh;
+  }
+
+  #contact address {
+    width: 50%;
+    font-size: 2.2rem;
+  }
+
+  .icons {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
   body {
     border: solid blue;
+  }
+
+  .sub_header h3 {
+    font-size: 3rem;
+  }
+
+  #gallery {
+    display: none;
   }
 }
